@@ -1,6 +1,12 @@
 'use strict'; 
 (function() {
 
-  display('Hello World');
+  let person = {
+    firstName: 'Jim',
+    lastName: 'Copper'
+  };
+
+  console.log("Helllo madafaka")
+  display(person.firstName);
 
 })();
